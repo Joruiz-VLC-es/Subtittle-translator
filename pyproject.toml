@@ -1,0 +1,35 @@
+[project]
+name = "subtitle-translator"
+version = "0.1.0-alpha"
+description = "Open Source Subtitle Translator"
+readme = "README.md"
+requires-python = ">=3.13"
+license = {text="MIT"}
+
+authors = [
+    {name="Jorge Ruiz Calpe"}
+]
+
+dependencies = [
+    "customtkinter>=5.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+    "mypy",
+    "pre-commit",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
