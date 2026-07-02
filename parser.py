@@ -1,0 +1,13 @@
+WAIT_INDEX
+
+↓
+
+WAIT_TIME
+
+↓
+
+READ_TEXT
+
+↓
+
+WAIT_INDEX
